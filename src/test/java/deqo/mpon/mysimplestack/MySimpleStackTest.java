@@ -12,7 +12,7 @@ public class MySimpleStackTest {
     private MySimpleStack stack;
 
     @Before
-    public void setUp() {
+    public void setUpTest() {
         this.stack = new MySimpleStack();
     }
 
