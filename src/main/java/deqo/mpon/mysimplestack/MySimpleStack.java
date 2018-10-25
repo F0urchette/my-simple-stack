@@ -18,12 +18,12 @@ public class MySimpleStack implements SimpleStack {
 
     @Override
     public void push(Item item) {
-        this.items.add(item);
+        this.items.add(0, item);
     }
 
     @Override
     public Item peek() throws EmptyStackException {
-        return this.items.get(this.getSize());
+        return this.items.get(0);
     }
 
     @Override

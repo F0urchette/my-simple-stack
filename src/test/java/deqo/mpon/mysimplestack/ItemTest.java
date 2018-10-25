@@ -9,7 +9,7 @@ public class ItemTest {
     private Item item;
 
     @Before
-    public void testSetUp() {
+    public void setUp() {
         this.item = new Item();
     }
 
