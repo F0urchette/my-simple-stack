@@ -5,6 +5,9 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
+/**
+ * java doc
+ */
 public class MySimpleStackTest {
     private MySimpleStack stack;
 
